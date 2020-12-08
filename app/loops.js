@@ -6,9 +6,13 @@
 // 1*2*3*4 = 24
 
 function factorials(num) {
-
+  let answer = 1;
+  for (let index = 1; index <= num; index++) {
+    answer = (answer * index);
+    // answer *= index (alternate better answer)
+  }
+  return answer
 }
-
 // ------------------------------------------
 
 // 2. Write a function that sums up all of the numbers in a range
