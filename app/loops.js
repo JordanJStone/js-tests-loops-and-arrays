@@ -8,8 +8,8 @@
 function factorials(num) {
   let answer = 1;
   for (let index = 1; index <= num; index++) {
-    answer = (answer * index);
-    // answer *= index (alternate better answer)
+    // answer = (answer * index);
+    answer *= index
   }
   return answer
 }
@@ -21,8 +21,14 @@ function factorials(num) {
 // output: 20
 
 function rangeTotal(n1, n2) {
+  let answer = 0
+  for (let index = n1; index <= n2; index++) {
+    answer += index
 
+  }
+  return answer
 }
+
 
 // ------------------------------------------
 
