@@ -24,7 +24,6 @@ function rangeTotal(n1, n2) {
   let answer = 0
   for (let index = n1; index <= n2; index++) {
     answer += index
-
   }
   return answer
 }
@@ -40,5 +39,10 @@ function rangeTotal(n1, n2) {
 // output: 2
 
 function rangeDivisor(start, end, divisor) {
-
+  n = 0;
+  const object = { a: start, b: end, c: divisor };
+  for (const potato in object) {
+    a % c ? (n + 1) : "";
+  }
+  return n;
 }
